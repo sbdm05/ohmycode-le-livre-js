@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;/* 1rem = 10px*/
+}
+body{
+    font-size: 1.4rem;/* soit 14px*/
+    font-family: arial;
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2337;
+}
+
+.banniere-titre{
+    margin-bottom: 1rem;
+}
+.cookies{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;/*nécessaire de préciser une width si position:fixed*/
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;/*positionner les DIV enfants*/
+    align-items: center;/*centrer verticalement*/
+    padding: 3rem;
+    opacity: 1; /* modification de cette valeur en Javascript*/
+    transition: 0.5s;
+}
+.cookies-btn{
+    display: flex;
+}
+.btn{
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.btn.btn-success{
+    background-color: #1E2337;
+}
+.btn.btn-deny{
+    background-color: grey;
+}
+

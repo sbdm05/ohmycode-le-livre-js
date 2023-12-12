@@ -1,0 +1,23 @@
+
+[
+    {
+      "pays": "borabora",
+      "prix": 1790,
+      "voyageurs": 4
+    },
+    {
+      "pays": "bahamas",
+      "prix": 1790,
+      "voyageurs": 4
+    },
+    {
+      "pays": "bahamas",
+      "prix": 1490,
+      "voyageurs": 2
+    },
+    {
+      "pays": "tahiti",
+      "prix": 1790,
+      "voyageurs": 4
+    }
+  ] 

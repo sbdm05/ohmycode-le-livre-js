@@ -1,0 +1,40 @@
+h1{
+    color: red;
+}
+#btn-red{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position :relative;
+    animation-name : rouge;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#btn-blue{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position :relative;
+    animation-name : bleu;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bleu{
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:200px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes rouge{
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+

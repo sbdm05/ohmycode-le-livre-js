@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;/* 1rem = 10px*/
+}
+body{
+    font-size: 1.4rem;/* soit 14px*/
+    font-family: arial;
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2337;
+}
+.banniere-titre{
+    margin-bottom: 1rem;
+}
+.part2{
+    background-color: orange;
+}
+.part3{
+    background-color: orangered;
+}
+/*MODAL*/
+.modal-container{
+    display: none;
+    height: 100vh;/*Couvre toute la page*/
+    width: 100%;/*Couvre toute la page*/
+    position: fixed;/*Se place au-dessus*/
+    top: 0;
+    left: 0;
+    background-color: rgba(136, 222, 136, 0.8);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.modal-details{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    position: relative;/*Pour positionner l'icône*/
+    padding: 3rem;
+    color:  #1E2337;
+}
+.modal-details i{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: grey;
+}
+/*LE TITRE*/
+.modal-titre{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+/*LE CODE*/
+.code{
+    display: none;
+    background-color: black;
+    color: white;
+    font-family:monospace;
+    padding: 1rem;
+}
+/*LE BOUTON*/
+.btn-success{
+    height: 4rem;
+    background-color: rgb(231, 171, 61);
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 100%;/*pleine largeur*/
+}
+

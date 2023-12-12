@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+img{
+    object-fit: contain;
+}
+.banniere-titre{
+    margin: 3rem;
+    text-align: center;
+}
+/* form{
+    width: 30%;
+    position: relative;
+    margin: 5rem auto;
+}
+form input{
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+
+}
+.btn.search{
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(118, 192, 134);
+    border: none;
+    right: 4px;
+    top: 2px;
+}
+.btn.search:hover{
+    filter: invert();
+} */
+
+
+.btn-plus{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(222, 75, 75);
+    border: none;
+    color: white;
+}
+
+#resultat{
+    margin-top: 2rem;
+    width: 40%;
+    padding: 3rem;
+    margin: 0 auto;
+}
+.img-artist{
+    max-width: 100%;
+}
+.btn{
+    margin-top: 2rem;
+}
+.btn-insta{
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+/*MEDIA*/
+@media screen and (max-width:700px){
+    #resultat{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+    .item{
+        padding: 1rem;
+    }
+    .btn-plus{
+        right: 10px;
+        bottom: 1px;
+    }
+    .item-titre{
+        font-size: 1.4rem;
+    }
+}

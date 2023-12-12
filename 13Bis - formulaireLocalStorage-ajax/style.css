@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;/* 1rem = 10px*/
+}
+body{
+    font-size: 1.4rem;/* soit 14px*/
+    font-family: arial;
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #1E2337; */
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banniere-titre{
+    margin-bottom: 1rem;
+}
+#form{
+    display: flex;
+    align-items:center;
+}
+.field{
+    margin: 1rem;
+}
+
+.field select, input[type=date]{
+    height: 6rem;
+    width: 20rem;
+    font-family: arial;
+}
+button{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: #e1a026;
+    color: white;
+}
+
+.liste-resultats{
+    display: flex;
+}
+
+.item{
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.724);
+    color: black;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.item-pays{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+

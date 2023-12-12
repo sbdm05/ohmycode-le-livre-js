@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;/* 1rem = 10px*/
+}
+body{
+    font-size: 1.4rem;/* soit 14px*/
+    font-family: arial;
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2337;
+}
+
+.banniere-titre{
+    margin-bottom: 1rem;
+}
+
+#todo-list{
+    background-color: white;
+    color: #1E2337;
+    width: 50%;
+    padding: 4rem;
+}
+#form{
+    display: flex;
+}
+#todo-list input{
+    width: 100%;
+    color: rgb(44, 43, 43);
+    font-size: 2rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    border: 1px dashed rgb(105, 19, 105); /*couleur de bordure*/
+    border-width: 0px 0px 1px 0px;/*ligne inférieure seulement*/
+}
+button{
+    border: none;
+    width: 4rem;
+    height: 4rem;
+}
+.item{
+    text-align: justify;
+    margin: 1rem;
+    background-color: rgb(222, 221, 221);
+    font-size: 2rem;
+    color: rgb(105, 19, 105);
+    display: flex;/*pour aligner <p> et <button>*/
+    align-items: center;
+}
+.item p{
+    flex: 1;/*pour prendre le plus de place possible*/
+    padding: 2rem;
+}
+.item button{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.item button.btn-archive{
+    font-size: 2rem;
+    background-color: rgb(128, 205, 128);
+}
+.item button.btn-delete{
+    font-size: 2rem;
+    background-color: rgb(188, 102, 102);
+}
+.done{
+    text-decoration: line-through;
+}
+
+.fa-trash-alt, .fa-check-circle{
+    pointer-events : none; /*Permet de ne pas ajouter un événement à cet élément*/
+}
