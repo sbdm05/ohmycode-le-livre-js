@@ -1,9 +1,7 @@
 async function getImg() {
   // console.log('test depuis getImg');
   try {
-    const reponseJSON = await fetch(
-      'you-api-key'
-    );
+    const reponseJSON = await fetch('you-api-key');
     console.log(reponseJSON, 'reponseJSON');
 
     // Je transforme en JS
